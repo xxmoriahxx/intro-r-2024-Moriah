@@ -40,6 +40,19 @@ typeof(TRUE) # logical or Boolean
 identical(42, "42") # no, type matters for identicalness
 
 # variables ----
+x <- "this is a string" # in R, read as assigning the string to variable x
+x <- 10
+typeof(x)
+x ^ 2 # always refer to as the assigned value
+x <- pizza
+my var <- 42 # not everything though
+my_var <- 42 # that's better
+my_var = 42 # works but not standard in R
+x <- my_var # helps reader follow assignment direction
+
+# readability - all lowercase, don't use dots in variable names
+x
+
 
 
 # data structures ----
